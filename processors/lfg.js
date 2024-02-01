@@ -15,7 +15,7 @@ const processLine = async (originalLine) => {
 
   let msg = `[<t:${Math.floor(Date.now() / 1000)}:T>] ${line}`;
   msg = parseWtbNotif(msg);
-  const resp = await discord.sendChannelMessage(process.env.THREAD_ID, {
+  const resp = await discord.sendChannelMessage(process.env.LFG_THREAD_ID, {
     content: msg,
   });
 
