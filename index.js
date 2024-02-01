@@ -5,7 +5,7 @@ dotenv.config();
 const readline = require('readline');
 const TailFile = require('@logdna/tail-file');
 
-const { processLine } = require('./util/chat.util');
+const { processLine } = require('./processors');
 
 async function startTail() {
   const tail = new TailFile(process.env.LOG_FILE)

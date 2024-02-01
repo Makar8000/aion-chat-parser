@@ -1,4 +1,4 @@
-const lfgProcessor = require('../processors/lfg');
+const lfgProcessor = require('./lfg');
 const items = require('../data/items.json');
 const itemsOverride = require('../data/items-custom.json');
 

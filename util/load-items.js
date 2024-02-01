@@ -36,7 +36,7 @@ const loadGear = async () => {
 };
 
 const fetchItems = async (type) => {
-  const url = new URL('https://aioncodex.com/query.php?l=usca=weapon&l=usc&_=1706747688615');
+  const url = new URL('https://aioncodex.com/query.php');
   url.searchParams.set('l', 'usc');
   url.searchParams.set('a', type);
   url.searchParams.set('_', timestamp());
