@@ -3,11 +3,11 @@ const pushoverToken = {
   user: process.env.PUSHOVER_USER,
   token: process.env.PUSHOVER_TOKEN,
 };
-const push = pushoverToken ? new Pushover(pushoverToken) : null;
+const push = pushoverToken.user && pushoverToken.token ? new Pushover(pushoverToken) : null;
 
 const sendPushover = (msg, callback) => {
   if (!push) {
-    console.error('No pushover secrets set.');
+    console.warn('No pushover secrets set.');
     return;
   }
 
@@ -21,7 +21,9 @@ const sendPushover = (msg, callback) => {
     expire: 60 * 5,
   };
 
-  if (msg) { message = { ...message, ...msg }; }
+  if (msg) {
+    message = { ...message, ...msg };
+  }
 
   push.send(message, callback ? callback : (err, result) => {
     if (err) { console.error(err); }

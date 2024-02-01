@@ -8,7 +8,9 @@ const wtbConfig = JSON5.parse(fs.readFileSync(path.join(__dirname, '../config/wt
 
 const processLine = async (originalLine) => {
   let line = `${originalLine}`;
-  if (!line.startsWith('[3.LFG] ')) { return; }
+  if (!line.startsWith('[3.LFG] ')) {
+    return;
+  }
   line = line.substring(8);
 
   let msg = `[<t:${Math.floor(Date.now() / 1000)}:T>] ${line}`;
