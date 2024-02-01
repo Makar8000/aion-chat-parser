@@ -1,0 +1,60 @@
+[
+  // Mark
+  {
+    "enabled": true,
+    "userId": 85924030661533696,
+    "items": [
+      112301236, // Sweet Stormwing's Shoulderguards
+      112300920 // Stormwing's Shoulderguards
+    ]
+  },
+  // Lin
+  {
+    "enabled": true,
+    "userId": 91683230192791552,
+    "items": [
+      110500988, // Stormwing's Hauberk
+      110550927, // Sweet Stormwing's Hauberk
+      112500907, // Stormwing's Spaulders
+      112501216, // Sweet Stormwing's Spaulders
+      114500967, // Stormwing's Brogans
+      114501295, // Sweet Stormwing's Brogans
+      101501004 // Padmarashka's Raging Staff 
+    ]
+  },
+  // Becca
+  {
+    "enabled": true,
+    "userId": 91694618898362368,
+    "items": [
+      112100922, // Stormwing's Pauldrons
+      112101243, // Sweet Stormwing's Pauldrons
+      113100977, // Stormwing's Leggings
+      113101304 // Sweet Stormwing's Leggings
+    ]
+  },
+  // Kysis
+  {
+    "enabled": true,
+    "userId": 175172897155973120,
+    "items": [
+      112100922, // Stormwing's Pauldrons
+      112101243, // Sweet Stormwing's Pauldrons
+      114101003, // Stormwing's Shoes
+      114101334, // [Supply] Sweet Stormwing's Shoes
+      111100964, // Stormwing's Gloves
+      111101287 // [Supply] Sweet Stormwing's Gloves 
+    ]
+  },
+  // Kaga
+  {
+    "enabled": true,
+    "userId": 173302124656984064,
+    "items": [
+      112301236, // Sweet Stormwing's Shoulderguards
+      112300920, // Stormwing's Shoulderguards
+      111101287, // [Supply] Sweet Stormwing's Gloves
+      111100964 // Stormwing's Gloves
+    ]
+  }
+]

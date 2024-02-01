@@ -1,0 +1,26 @@
+{
+  "name": "@makar8000/aion-chat-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r dotenv/config .",
+    "load-items": "node util/load-items.js",
+    "lint": "eslint . --ext .js --ignore-path .gitignore",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^2.2.0",
+    "@logdna/tail-file": "^3.0.1",
+    "discord-api-types": "^0.37.67",
+    "dotenv": "^16.4.1",
+    "he": "^1.2.0",
+    "json5": "^2.2.3",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  }
+}
