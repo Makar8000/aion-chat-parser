@@ -26,12 +26,12 @@ const parseWtbNotif = (line) => {
     const foundItems = config.items.filter(item => line.includes(`aioncodex.com/usc/item/${item}`));
     if (foundItems.length > 0) {
       prefix = `${prefix}<@${config.userId}>`;
-    }
-    if (config.push) {
-      sendPushover({
-        title: 'Aion LFG Item Notification',
-        message: line,
-      });
+      if (config.push) {
+        sendPushover({
+          title: 'Aion LFG Item Notification',
+          message: line,
+        });
+      }
     }
   }
   if (prefix.length > 0) {
