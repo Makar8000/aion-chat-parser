@@ -1,7 +1,7 @@
 {
   "name": "@makar8000/aion-chat-parser",
   "version": "1.0.0",
-  "description": "",
+  "description": "Parses the aion chat log to perform various activities",
   "main": "index.js",
   "scripts": {
     "start": "node -r dotenv/config .",
