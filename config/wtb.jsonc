@@ -1,17 +1,18 @@
 [
-  // Mark
+  // Makar
   {
     "enabled": true,
-    "userId": 85924030661533696,
+    "push": true,
+    "userId": "85924030661533696",
     "items": [
       112301236, // Sweet Stormwing's Shoulderguards
       112300920 // Stormwing's Shoulderguards
     ]
   },
-  // Lin
+  // Lico
   {
     "enabled": true,
-    "userId": 91683230192791552,
+    "userId": "91683230192791552",
     "items": [
       110500988, // Stormwing's Hauberk
       110550927, // Sweet Stormwing's Hauberk
@@ -22,10 +23,10 @@
       101501004 // Padmarashka's Raging Staff 
     ]
   },
-  // Becca
+  // Yoyo
   {
     "enabled": true,
-    "userId": 91694618898362368,
+    "userId": "91694618898362368",
     "items": [
       112100922, // Stormwing's Pauldrons
       112101243, // Sweet Stormwing's Pauldrons
@@ -36,7 +37,7 @@
   // Kysis
   {
     "enabled": true,
-    "userId": 175172897155973120,
+    "userId": "175172897155973120",
     "items": [
       112100922, // Stormwing's Pauldrons
       112101243, // Sweet Stormwing's Pauldrons
@@ -49,7 +50,7 @@
   // Kaga
   {
     "enabled": true,
-    "userId": 173302124656984064,
+    "userId": "173302124656984064",
     "items": [
       112301236, // Sweet Stormwing's Shoulderguards
       112300920, // Stormwing's Shoulderguards

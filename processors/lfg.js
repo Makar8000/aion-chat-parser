@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const JSON5 = require('json5');
-const discord = require('../util/discord.util');
+const discord = require('../util/discord');
 
 const wtbConfig = JSON5.parse(fs.readFileSync(path.join(__dirname, '../config/wtb.jsonc'))).filter(c => c.enabled);
 
@@ -24,7 +24,10 @@ const parseWtbNotif = (line) => {
   for (const config of wtbConfig) {
     const foundItems = config.items.filter(item => line.includes(`aioncodex.com/usc/item/${item}`));
     if (foundItems.length > 0) {
-      prefix += `<@${config.userId}>`;
+      prefix = `${prefix}<@${config.userId}>`;
+    }
+    if (config.push) {
+      // TODO: push notification
     }
   }
   if (prefix.length > 0) {
