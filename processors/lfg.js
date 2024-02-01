@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const JSON5 = require('json5');
 const discord = require('../util/discord');
+const { sendPushover } = require('../util/pushover');
 
 const wtbConfig = JSON5.parse(fs.readFileSync(path.join(__dirname, '../config/wtb.jsonc'))).filter(c => c.enabled);
 
@@ -27,7 +28,10 @@ const parseWtbNotif = (line) => {
       prefix = `${prefix}<@${config.userId}>`;
     }
     if (config.push) {
-      // TODO: push notification
+      sendPushover({
+        title: 'Aion LFG Item Notification',
+        message: line,
+      });
     }
   }
   if (prefix.length > 0) {
