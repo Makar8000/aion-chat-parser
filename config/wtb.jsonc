@@ -1,13 +1,10 @@
 [
   // Makar
   {
-    "enabled": true,
+    "enabled": false,
     "push": true,
     "userId": "85924030661533696",
-    "items": [
-      112301236, // Sweet Stormwing's Shoulderguards
-      112300920 // Stormwing's Shoulderguards
-    ]
+    "items": []
   },
   // Lico
   {
@@ -49,13 +46,8 @@
   },
   // Kaga
   {
-    "enabled": true,
+    "enabled": false,
     "userId": "173302124656984064",
-    "items": [
-      112301236, // Sweet Stormwing's Shoulderguards
-      112300920, // Stormwing's Shoulderguards
-      111101287, // [Supply] Sweet Stormwing's Gloves
-      111100964 // Stormwing's Gloves
-    ]
+    "items": []
   }
 ]
