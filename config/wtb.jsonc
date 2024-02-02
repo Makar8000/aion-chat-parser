@@ -15,8 +15,6 @@
       110550927, // Sweet Stormwing's Hauberk
       112500907, // Stormwing's Spaulders
       112501216, // Sweet Stormwing's Spaulders
-      114500967, // Stormwing's Brogans
-      114501295, // Sweet Stormwing's Brogans
       101501004 // Padmarashka's Raging Staff 
     ]
   },
@@ -26,9 +24,7 @@
     "userId": "91694618898362368",
     "items": [
       112100922, // Stormwing's Pauldrons
-      112101243, // Sweet Stormwing's Pauldrons
-      113100977, // Stormwing's Leggings
-      113101304 // Sweet Stormwing's Leggings
+      112101243 // Sweet Stormwing's Pauldrons
     ]
   },
   // Kysis
