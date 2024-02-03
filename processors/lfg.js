@@ -25,7 +25,7 @@ const processLine = async (originalLine) => {
 const parseWtbNotif = (line) => {
   let prefix = '';
   for (const config of wtbConfig) {
-    const foundItems = config.items.filter(item => line.includes(`aioncodex.com/usc/item/${item}`));
+    const foundItems = config.items.filter(item => line.includes(`item/${item}`) || line.includes(`item:${item}`));
     if (foundItems.length > 0) {
       prefix = `${prefix}<@${config.userId}>`;
       if (config.push) {
