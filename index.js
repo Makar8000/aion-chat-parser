@@ -50,4 +50,6 @@ process.stdin.on('keypress', (_ch, key) => {
   }
 });
 
-process.stdin.setRawMode(true);
+if (process.stdin.isTTY) {
+  process.stdin.setRawMode(true);
+}
