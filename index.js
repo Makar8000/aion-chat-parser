@@ -44,7 +44,7 @@ startTail().catch((err) => {
 });
 
 process.stdin.on('keypress', (_ch, key) => {
-  if (key && key.ctrl && key.name == 'c') {
+  if (key && key.name == 'e') {
     console.log('Closing...');
     process.exit(0);
   }
