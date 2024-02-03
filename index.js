@@ -4,6 +4,7 @@ dotenv.config();
 
 const readline = require('readline');
 const TailFile = require('@logdna/tail-file');
+readline.emitKeypressEvents(process.stdin);
 
 const { processLine } = require('./processors');
 
@@ -41,3 +42,12 @@ startTail().catch((err) => {
     throw err;
   });
 });
+
+process.stdin.on('keypress', (_ch, key) => {
+  if (key && key.ctrl && key.name == 'c') {
+    console.log('Closing...');
+    process.exit(0);
+  }
+});
+
+process.stdin.setRawMode(true);
