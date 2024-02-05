@@ -52,5 +52,11 @@
     "url": "https://aioncodex.com/usc/item/186000031/",
     "name": "Silver Medal",
     "markupLink": "[<Silver Medal>](https://aioncodex.com/usc/item/186000031/)"
+  },
+  "186000030": {
+    "id": 186000030,
+    "url": "https://aioncodex.com/usc/item/186000030/",
+    "name": "Gold Medal",
+    "markupLink": "[<Gold Medal>](https://aioncodex.com/usc/item/186000030/)"
   }
 }
