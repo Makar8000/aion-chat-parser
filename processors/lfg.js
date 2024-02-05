@@ -49,7 +49,7 @@ process.stdin.on('keypress', (_ch, key) => {
       .then(data => data.text())
       .then(json => {
         wtbConfig = JSON5.parse(json).filter(c => c.enabled);
-        console.log('WTB items refreshed.');
+        console.log('WTB items refreshed.', wtbConfig);
       });
   }
 });
