@@ -4,7 +4,7 @@ const JSON5 = require('json5');
 const discord = require('../util/discord');
 const { sendPushover } = require('../util/pushover');
 
-const wtbConfig = JSON5.parse(fs.readFileSync(path.join(__dirname, '../config/wtb.jsonc'))).filter(c => c.enabled);
+let wtbConfig = JSON5.parse(fs.readFileSync(path.join(__dirname, '../config/wtb.jsonc'))).filter(c => c.enabled);
 
 const processLine = async (originalLine) => {
   let line = `${originalLine}`;
@@ -41,5 +41,17 @@ const parseWtbNotif = (line) => {
   }
   return line;
 };
+
+process.stdin.on('keypress', (_ch, key) => {
+  if (key && key.name == 'r') {
+    console.log('Refreshing WTB items...');
+    fetch('https://raw.githubusercontent.com/Makar8000/aion-chat-parser/main/config/wtb.jsonc')
+      .then(data => data.text())
+      .then(json => {
+        wtbConfig = JSON5.parse(json).filter(c => c.enabled);
+        console.log('WTB items refreshed.');
+      });
+  }
+});
 
 module.exports = processLine;

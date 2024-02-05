@@ -30,6 +30,18 @@ const parseAionMessage = msg => {
   return ret;
 };
 
+process.stdin.on('keypress', (_ch, key) => {
+  if (key && key.name == 'r') {
+    console.log('Refreshing override items...');
+    fetch('https://raw.githubusercontent.com/Makar8000/aion-chat-parser/main/data/items-custom.json')
+      .then(data => data.json())
+      .then(json => {
+        Object.keys(json).forEach(k => items[k] = itemsOverride[k]);
+        console.log('Override items refreshed.');
+      });
+  }
+});
+
 module.exports = {
   processLine,
   parseAionMessage,
