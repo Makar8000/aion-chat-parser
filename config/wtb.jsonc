@@ -20,12 +20,9 @@
   },
   // Yoyo
   {
-    "enabled": true,
+    "enabled": false,
     "userId": "91694618898362368",
-    "items": [
-      112100922, // Stormwing's Pauldrons
-      112101243 // Sweet Stormwing's Pauldrons
-    ]
+    "items": []
   },
   // Kysis
   {
