@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node -r dotenv/config .",
-    "update": "git reset --hard && git pull && npm ci",
+    "update": "git pull --rebase && npm ci",
     "restart": "npm run update && npm run start",
     "load-items": "node util/load-items.js",
     "lint": "eslint . --ext .js --ignore-path .gitignore",
