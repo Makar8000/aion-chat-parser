@@ -15,9 +15,9 @@
   "license": "ISC",
   "dependencies": {
     "@discordjs/rest": "^2.2.0",
-    "@logdna/tail-file": "^3.0.1",
-    "discord-api-types": "^0.37.67",
-    "dotenv": "^16.4.1",
+    "@logdna/tail-file": "^4.0.0",
+    "discord-api-types": "^0.37.69",
+    "dotenv": "^16.4.4",
     "he": "^1.2.0",
     "json5": "^2.2.3",
     "node-fetch": "^2.7.0",
