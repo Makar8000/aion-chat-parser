@@ -1,5 +1,5 @@
 # aion-chat-parser
-A simple NodeJS application which parses Aion's `Chat.log` file to do perform various actions.
+A simple NodeJS application which parses Aion's `Chat.log` file to perform various actions.
 
 ## Usage
 1. Enable Chat Log in Aion's `system.cfg`. This can be done using a tool like [Shugo Console](https://www.aionclass.com/information/3337) or [AionSysEditor](https://rainy.ws/category/apps/sysconfigeditor/).
