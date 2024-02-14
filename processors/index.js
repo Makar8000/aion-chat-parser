@@ -1,10 +1,12 @@
 const fs = require('fs');
 const path = require('path');
+const simpleGit = require('simple-git');
 const lfgProcessor = require('./lfg');
 const items = require('../data/items.json');
 const itemsOverride = require('../data/items-custom.json');
 
 Object.keys(itemsOverride).forEach(key => items[key] = itemsOverride[key]);
+const git = simpleGit();
 
 const REG = {
   COMMON: [
@@ -47,18 +49,14 @@ const parseUnknownItem = async itemId => {
     await fetch(`https://aioncodex.com/usc/item/${itemId}/`)
       .then(res => res.text())
       .then(body => {
-        // Parse title from response
         const match = body.match(/<title>(?<title>[^<]*)<\/title>/);
         if (typeof match?.groups?.title !== 'string')
           return;
 
         ret.name = match.groups.title.replace(" - Aion Codex", "").trim();
         ret.markupLink = `[<${ret.name}>](https://aioncodex.com/usc/item/${itemId}/)`;
+        updateItem(itemId, ret);
 
-        // Update override items
-        itemsOverride[`${itemId}`] = ret;
-        items[`${itemId}`] = ret;
-        fs.writeFileSync(path.join(__dirname, '../data/items-custom.json'), JSON.stringify(itemsOverride, null, 2));
         return;
       });
   } catch (e) {
@@ -66,6 +64,18 @@ const parseUnknownItem = async itemId => {
   }
 
   return ret;
+};
+
+const updateItem = (itemId, data) => {
+  itemsOverride[`${itemId}`] = data;
+  items[`${itemId}`] = data;
+
+  const filePath = path.join(__dirname, '../data/items-custom.json');
+  fs.writeFileSync(filePath, JSON.stringify(itemsOverride, null, 2));
+  git.add(filePath)
+    .then(() => git.commit(`Add ${data.name}`))
+    .then(() => git.pull({ '--rebase': 'true' }))
+    .then(() => git.push());
 };
 
 process.stdin.on('keypress', (_ch, key) => {

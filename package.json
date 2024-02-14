@@ -21,7 +21,8 @@
     "he": "^1.2.0",
     "json5": "^2.2.3",
     "node-fetch": "^2.7.0",
-    "pushover-notifications": "^1.2.2"
+    "pushover-notifications": "^1.2.2",
+    "simple-git": "^3.22.0"
   },
   "devDependencies": {
     "eslint": "^8.56.0"
