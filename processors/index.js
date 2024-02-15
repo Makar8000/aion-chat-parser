@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const simpleGit = require('simple-git');
+const he = require('he');
 const lfgProcessor = require('./lfg');
 const items = require('../data/items.json');
 const itemsOverride = require('../data/items-custom.json');
@@ -53,7 +54,7 @@ const parseUnknownItem = async itemId => {
         if (typeof match?.groups?.title !== 'string')
           return;
 
-        ret.name = match.groups.title.replace(" - Aion Codex", "").trim();
+        ret.name = he.decode(match.groups.title.replace(" - Aion Codex", "")).trim();
         ret.markupLink = `[<${ret.name}>](https://aioncodex.com/usc/item/${itemId}/)`;
         updateItem(itemId, ret);
 
