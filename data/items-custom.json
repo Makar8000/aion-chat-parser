@@ -1,4 +1,16 @@
 {
+  "182006441": {
+    "id": 182006441,
+    "url": "https://aioncodex.com/usc/item/182006441/",
+    "name": "Greater Dazzling Crystal",
+    "markupLink": "[<Greater Dazzling Crystal>](https://aioncodex.com/usc/item/182006441/)"
+  },
+  "186000007": {
+    "id": 186000007,
+    "url": "https://aioncodex.com/usc/item/186000007/",
+    "name": "Bronze Coin",
+    "markupLink": "[<Bronze Coin>](https://aioncodex.com/usc/item/186000007/)"
+  },
   "186000030": {
     "id": 186000030,
     "url": "https://aioncodex.com/usc/item/186000030/",
@@ -17,6 +29,12 @@
     "name": "Major Ancient Seal",
     "markupLink": "[<Major Ancient Seal>](https://aioncodex.com/usc/item/186000059/)"
   },
+  "186020252": {
+    "id": 186020252,
+    "url": "https://aioncodex.com/usc/item/186020252/",
+    "name": "Stormwing's Essence",
+    "markupLink": "[<Stormwing's Essence>](https://aioncodex.com/usc/item/186020252/)"
+  },
   "186020253": {
     "id": 186020253,
     "url": "https://aioncodex.com/usc/item/186020253/",
@@ -28,6 +46,18 @@
     "url": "https://aioncodex.com/usc/item/188000003/",
     "name": "Asmodian Fine Siege Weapon",
     "markupLink": "[<Asmodian Fine Siege Weapon>](https://aioncodex.com/usc/item/188000003/)"
+  },
+  "188052677": {
+    "id": 188052677,
+    "url": "https://aioncodex.com/usc/item/188052677/",
+    "name": "Sapphire Medal Box",
+    "markupLink": "[<Sapphire Medal Box>](https://aioncodex.com/usc/item/188052677/)"
+  },
+  "188053063": {
+    "id": 188053063,
+    "url": "https://aioncodex.com/usc/item/188053063/",
+    "name": "[Supply] Large Supplement (Eternal) Bundle",
+    "markupLink": "[<[Supply] Large Supplement (Eternal) Bundle>](https://aioncodex.com/usc/item/188053063/)"
   },
   "188053518": {
     "id": 188053518,
@@ -59,6 +89,30 @@
     "name": "Bellator Grade 5 Participation Reward Box",
     "markupLink": "[<Bellator Grade 5 Participation Reward Box>](https://aioncodex.com/usc/item/188053522/)"
   },
+  "188053537": {
+    "id": 188053537,
+    "url": "https://aioncodex.com/usc/item/188053537/",
+    "name": "Mystic Academy Set",
+    "markupLink": "[<Mystic Academy Set>](https://aioncodex.com/usc/item/188053537/)"
+  },
+  "188059909": {
+    "id": 188059909,
+    "url": "https://aioncodex.com/usc/item/188059909/",
+    "name": "100,000,000 Kinah Bundle",
+    "markupLink": "[<100,000,000 Kinah Bundle>](https://aioncodex.com/usc/item/188059909/)"
+  },
+  "188100095": {
+    "id": 188100095,
+    "url": "https://aioncodex.com/usc/item/188100095/",
+    "name": "Forgotten Skill Book Page",
+    "markupLink": "[<Forgotten Skill Book Page>](https://aioncodex.com/usc/item/188100095/)"
+  },
+  "188100126": {
+    "id": 188100126,
+    "url": "https://aioncodex.com/usc/item/188100126/",
+    "name": "[Event] Mysterious Lockbox S2",
+    "markupLink": "[<[Event] Mysterious Lockbox S2>](https://aioncodex.com/usc/item/188100126/)"
+  },
   "188500091": {
     "id": 188500091,
     "url": "https://aioncodex.com/usc/item/188500091/",
@@ -76,5 +130,11 @@
     "url": "https://aioncodex.com/usc/item/189700097/",
     "name": "Brohum Painting Shard 47",
     "markupLink": "[<Brohum Painting Shard 47>](https://aioncodex.com/usc/item/189700097/)"
+  },
+  "190020114": {
+    "id": 190020114,
+    "url": "https://aioncodex.com/usc/item/190020114/",
+    "name": "Altgard Kitter Egg (30 days)",
+    "markupLink": "[<Altgard Kitter Egg (30 days)>](https://aioncodex.com/usc/item/190020114/)"
   }
 }
