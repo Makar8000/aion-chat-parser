@@ -1,0 +1,12 @@
+[
+  {
+    "enabled": true,
+    "regex": "p2pah\\.com",
+    "flags": "i"
+  },
+  {
+    "enabled": true,
+    "regex": "okaygold\\.com",
+    "flags": "i"
+  }
+]

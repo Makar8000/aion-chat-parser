@@ -5,11 +5,18 @@ const discord = require('../util/discord');
 const { sendPushover } = require('../util/pushover');
 
 let wtbConfig = JSON5.parse(fs.readFileSync(path.join(__dirname, '../config/wtb.jsonc'))).filter(c => c.enabled);
+let bannedWords = JSON5.parse(fs.readFileSync(path.join(__dirname, '../config/banned.jsonc'))).filter(c => c.enabled);
+bannedWords.forEach(r => r.regexp = new RegExp(r.regex, r.flags));
 
 const processLine = async (originalLine) => {
   let line = `${originalLine}`;
   if (!line.startsWith('[3.LFG] ')) {
     return;
+  }
+  for (const bannedWord of bannedWords) {
+    if (bannedWord.regexp.test(line)) {
+      return;
+    }
   }
   line = line.substring(8);
 
@@ -50,6 +57,14 @@ process.stdin.on('keypress', (_ch, key) => {
       .then(json => {
         wtbConfig = JSON5.parse(json).filter(c => c.enabled);
         console.log('WTB items refreshed.', wtbConfig);
+      });
+    console.log('Refreshing banned words...');
+    fetch('https://raw.githubusercontent.com/Makar8000/aion-chat-parser/main/config/banned.jsonc')
+      .then(data => data.text())
+      .then(json => {
+        bannedWords = JSON5.parse(json).filter(c => c.enabled);
+        bannedWords.forEach(r => r.regexp = new RegExp(r.regex, r.flags));
+        console.log('Banned words refreshed.', bannedWords);
       });
   }
 });
