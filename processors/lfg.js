@@ -13,11 +13,6 @@ const processLine = async (originalLine) => {
   if (!line.startsWith('[3.LFG] ')) {
     return;
   }
-  for (const bannedWord of bannedWords) {
-    if (bannedWord.regexp.test(line)) {
-      return;
-    }
-  }
   line = line.substring(8);
 
   let msg = `[<t:${Math.floor(Date.now() / 1000)}:T>] ${line}`;
