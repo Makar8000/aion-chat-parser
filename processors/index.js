@@ -56,9 +56,7 @@ const parseUnknownItem = async itemId => {
 
         ret.name = he.decode(match.groups.title.replace(" - Aion Codex", "")).trim();
         ret.markupLink = `[<${ret.name}>](https://aioncodex.com/usc/item/${itemId}/)`;
-        updateItem(itemId, ret);
-
-        return;
+        return updateItem(itemId, ret);
       });
   } catch (e) {
     console.error(e);
@@ -67,16 +65,17 @@ const parseUnknownItem = async itemId => {
   return ret;
 };
 
-const updateItem = (itemId, data) => {
+const updateItem = async (itemId, data) => {
   itemsOverride[`${itemId}`] = data;
   items[`${itemId}`] = data;
 
   const filePath = path.join(__dirname, '../data/items-custom.json');
   fs.writeFileSync(filePath, JSON.stringify(itemsOverride, null, 2));
-  git.add(filePath)
+  await git.add(filePath)
     .then(() => git.commit(`Add ${data.name}`))
     .then(() => git.pull({ '--rebase': 'true' }))
     .then(() => git.push());
+  return data;
 };
 
 process.stdin.on('keypress', (_ch, key) => {
