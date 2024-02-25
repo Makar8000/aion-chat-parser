@@ -5,6 +5,12 @@
     "name": "Greater Dazzling Crystal",
     "markupLink": "[<Greater Dazzling Crystal>](https://aioncodex.com/usc/item/182006441/)"
   },
+  "182215213": {
+    "id": 182215213,
+    "url": "https://aioncodex.com/usc/item/182215213/",
+    "name": "[Event] Dimensional Chocolate",
+    "markupLink": "[<[Event] Dimensional Chocolate>](https://aioncodex.com/usc/item/182215213/)"
+  },
   "186000007": {
     "id": 186000007,
     "url": "https://aioncodex.com/usc/item/186000007/",
@@ -23,11 +29,47 @@
     "name": "Silver Medal",
     "markupLink": "[<Silver Medal>](https://aioncodex.com/usc/item/186000031/)"
   },
+  "186000033": {
+    "id": 186000033,
+    "url": "https://aioncodex.com/usc/item/186000033/",
+    "name": "Hot Balaur Heart",
+    "markupLink": "[<Hot Balaur Heart>](https://aioncodex.com/usc/item/186000033/)"
+  },
+  "186000051": {
+    "id": 186000051,
+    "url": "https://aioncodex.com/usc/item/186000051/",
+    "name": "Major Ancient Crown",
+    "markupLink": "[<Major Ancient Crown>](https://aioncodex.com/usc/item/186000051/)"
+  },
+  "186000052": {
+    "id": 186000052,
+    "url": "https://aioncodex.com/usc/item/186000052/",
+    "name": "Greater Ancient Crown",
+    "markupLink": "[<Greater Ancient Crown>](https://aioncodex.com/usc/item/186000052/)"
+  },
+  "186000053": {
+    "id": 186000053,
+    "url": "https://aioncodex.com/usc/item/186000053/",
+    "name": "Ancient Crown",
+    "markupLink": "[<Ancient Crown>](https://aioncodex.com/usc/item/186000053/)"
+  },
+  "186000054": {
+    "id": 186000054,
+    "url": "https://aioncodex.com/usc/item/186000054/",
+    "name": "Lesser Ancient Crown",
+    "markupLink": "[<Lesser Ancient Crown>](https://aioncodex.com/usc/item/186000054/)"
+  },
   "186000059": {
     "id": 186000059,
     "url": "https://aioncodex.com/usc/item/186000059/",
     "name": "Major Ancient Seal",
     "markupLink": "[<Major Ancient Seal>](https://aioncodex.com/usc/item/186000059/)"
+  },
+  "186000182": {
+    "id": 186000182,
+    "url": "https://aioncodex.com/usc/item/186000182/",
+    "name": "Legion Greater Production Mark",
+    "markupLink": "[<Legion Greater Production Mark>](https://aioncodex.com/usc/item/186000182/)"
   },
   "186020252": {
     "id": 186020252,
@@ -41,11 +83,23 @@
     "name": "Faint Stormwing's Essence",
     "markupLink": "[<Faint Stormwing&#39;s Essence>](https://aioncodex.com/usc/item/186020253/)"
   },
+  "186020267": {
+    "id": 186020267,
+    "url": "https://aioncodex.com/usc/item/186020267/",
+    "name": "Forgotten Lesser Memory Shard",
+    "markupLink": "[<Forgotten Lesser Memory Shard>](https://aioncodex.com/usc/item/186020267/)"
+  },
   "188000003": {
     "id": 188000003,
     "url": "https://aioncodex.com/usc/item/188000003/",
     "name": "Asmodian Fine Siege Weapon",
     "markupLink": "[<Asmodian Fine Siege Weapon>](https://aioncodex.com/usc/item/188000003/)"
+  },
+  "188052221": {
+    "id": 188052221,
+    "url": "https://aioncodex.com/usc/item/188052221/",
+    "name": "Fuzzy Animal Parka Selection Box",
+    "markupLink": "[<Fuzzy Animal Parka Selection Box>](https://aioncodex.com/usc/item/188052221/)"
   },
   "188052677": {
     "id": 188052677,
@@ -58,6 +112,18 @@
     "url": "https://aioncodex.com/usc/item/188053063/",
     "name": "[Supply] Large Supplement (Eternal) Bundle",
     "markupLink": "[<[Supply] Large Supplement (Eternal) Bundle>](https://aioncodex.com/usc/item/188053063/)"
+  },
+  "188053266": {
+    "id": 188053266,
+    "url": "https://aioncodex.com/usc/item/188053266/",
+    "name": "[Event] Valentine's Weapon Select Box",
+    "markupLink": "[<[Event] Valentine's Weapon Select Box>](https://aioncodex.com/usc/item/188053266/)"
+  },
+  "188053499": {
+    "id": 188053499,
+    "url": "https://aioncodex.com/usc/item/188053499/",
+    "name": "Superior Bellator Manastone Bundle",
+    "markupLink": "[<Superior Bellator Manastone Bundle>](https://aioncodex.com/usc/item/188053499/)"
   },
   "188053518": {
     "id": 188053518,
@@ -89,17 +155,35 @@
     "name": "Bellator Grade 5 Participation Reward Box",
     "markupLink": "[<Bellator Grade 5 Participation Reward Box>](https://aioncodex.com/usc/item/188053522/)"
   },
+  "188053524": {
+    "id": 188053524,
+    "url": "https://aioncodex.com/usc/item/188053524/",
+    "name": "Legion Reward Bundle",
+    "markupLink": "[<Legion Reward Bundle>](https://aioncodex.com/usc/item/188053524/)"
+  },
   "188053537": {
     "id": 188053537,
     "url": "https://aioncodex.com/usc/item/188053537/",
     "name": "Mystic Academy Set",
     "markupLink": "[<Mystic Academy Set>](https://aioncodex.com/usc/item/188053537/)"
   },
+  "188059900": {
+    "id": 188059900,
+    "url": "https://aioncodex.com/usc/item/188059900/",
+    "name": "10,000,000 Kinah Bundle",
+    "markupLink": "[<10,000,000 Kinah Bundle>](https://aioncodex.com/usc/item/188059900/)"
+  },
   "188059909": {
     "id": 188059909,
     "url": "https://aioncodex.com/usc/item/188059909/",
     "name": "100,000,000 Kinah Bundle",
     "markupLink": "[<100,000,000 Kinah Bundle>](https://aioncodex.com/usc/item/188059909/)"
+  },
+  "188100086": {
+    "id": 188100086,
+    "url": "https://aioncodex.com/usc/item/188100086/",
+    "name": "Black Gold Medal Shard",
+    "markupLink": "[<Black Gold Medal Shard>](https://aioncodex.com/usc/item/188100086/)"
   },
   "188100095": {
     "id": 188100095,
@@ -112,6 +196,18 @@
     "url": "https://aioncodex.com/usc/item/188100126/",
     "name": "[Event] Mysterious Lockbox S2",
     "markupLink": "[<[Event] Mysterious Lockbox S2>](https://aioncodex.com/usc/item/188100126/)"
+  },
+  "188100127": {
+    "id": 188100127,
+    "url": "https://aioncodex.com/usc/item/188100127/",
+    "name": "[Event] Brilliant Lockbox S2",
+    "markupLink": "[<[Event] Brilliant Lockbox S2>](https://aioncodex.com/usc/item/188100127/)"
+  },
+  "188100128": {
+    "id": 188100128,
+    "url": "https://aioncodex.com/usc/item/188100128/",
+    "name": "[Event] Mysterious Lockbox Key S2",
+    "markupLink": "[<[Event] Mysterious Lockbox Key S2>](https://aioncodex.com/usc/item/188100128/)"
   },
   "188500091": {
     "id": 188500091,
