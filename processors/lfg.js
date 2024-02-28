@@ -8,8 +8,8 @@ let wtbConfig = JSON5.parse(fs.readFileSync(path.join(__dirname, '../config/wtb.
 let bannedWords = JSON5.parse(fs.readFileSync(path.join(__dirname, '../config/banned.jsonc'))).filter(c => c.enabled);
 bannedWords.forEach(r => r.regexp = new RegExp(r.regex, r.flags));
 
-const processLine = async (originalLine) => {
-  let line = `${originalLine}`;
+const processLine = async (lineData) => {
+  let line = `${lineData.line}`;
   if (!line.startsWith('[3.LFG] ')) {
     return;
   }
@@ -21,7 +21,7 @@ const processLine = async (originalLine) => {
   }
   line = line.substring(8);
 
-  let msg = `[<t:${Math.floor(Date.now() / 1000)}:T>] ${line}`;
+  let msg = `[<t:${lineData.time.unix()}:T>] ${line}`;
   msg = parseWtbNotif(msg);
   const resp = await discord.sendChannelMessage(process.env.LFG_THREAD_ID, {
     content: msg,

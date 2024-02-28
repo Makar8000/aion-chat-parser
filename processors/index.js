@@ -2,12 +2,15 @@ const fs = require('fs');
 const path = require('path');
 const simpleGit = require('simple-git');
 const he = require('he');
+const dayjs = require('dayjs');
 const lfgProcessor = require('./lfg');
 const items = require('../data/items.json');
 const itemsOverride = require('../data/items-custom.json');
 
 Object.keys(itemsOverride).forEach(key => items[key] = itemsOverride[key]);
 const git = simpleGit();
+const customParseFormat = require('dayjs/plugin/customParseFormat');
+dayjs.extend(customParseFormat);
 
 const REG = {
   COMMON: [
@@ -23,17 +26,24 @@ const processLine = async (line) => {
 };
 
 const parseAionMessage = async (msg) => {
-  let ret = msg.substring(22);
+  const ret = {
+    time: dayjs(msg.substring(0, 19), 'YYYY.MM.DD HH:mm:ss'),
+    line: msg.substring(22),
+  };
+  if (!ret.time?.isValid()) {
+    ret.time = dayjs();
+  }
+
   REG.COMMON.forEach(r => {
-    ret = ret.replaceAll(r.regex, r.replace);
+    ret.line = ret.line.replaceAll(r.regex, r.replace);
   });
-  for (const match of ret.matchAll(REG.ITEM)) {
+  for (const match of ret.line.matchAll(REG.ITEM)) {
     const id = match?.groups?.itemId;
     if (!items[id]?.markupLink) {
       await parseUnknownItem(id);
     }
     const markup = items[id]?.markupLink ?? `[<UnknownItem ${id}>](https://aioncodex.com/usc/item/${id}/)`;
-    ret = ret.replaceAll(match?.groups?.item, markup);
+    ret.line = ret.line.replaceAll(match?.groups?.item, markup);
   }
   return ret;
 };

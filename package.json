@@ -16,8 +16,9 @@
   "dependencies": {
     "@discordjs/rest": "^2.2.0",
     "@logdna/tail-file": "^4.0.0",
-    "discord-api-types": "^0.37.69",
-    "dotenv": "^16.4.4",
+    "dayjs": "^1.11.10",
+    "discord-api-types": "^0.37.71",
+    "dotenv": "^16.4.5",
     "he": "^1.2.0",
     "json5": "^2.2.3",
     "node-fetch": "^2.7.0",
@@ -25,6 +26,6 @@
     "simple-git": "^3.22.0"
   },
   "devDependencies": {
-    "eslint": "^8.56.0"
+    "eslint": "^8.57.0"
   }
 }
