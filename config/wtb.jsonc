@@ -1,10 +1,12 @@
 [
   // Makar
   {
-    "enabled": false,
-    "push": true,
+    "enabled": true,
+    "push": false,
     "userId": "85924030661533696",
-    "items": []
+    "items": [
+      100000893 // Stormwing's Azure Scale Sword
+    ]
   },
   // Lico
   {
