@@ -1,4 +1,10 @@
 {
+  "169611106": {
+    "id": 169611106,
+    "url": "https://aioncodex.com/usc/item/169611106/",
+    "name": "",
+    "markupLink": "[<>](https://aioncodex.com/usc/item/169611106/)"
+  },
   "182006441": {
     "id": 182006441,
     "url": "https://aioncodex.com/usc/item/182006441/",
@@ -22,6 +28,12 @@
     "url": "https://aioncodex.com/usc/item/186000007/",
     "name": "Bronze Coin",
     "markupLink": "[<Bronze Coin>](https://aioncodex.com/usc/item/186000007/)"
+  },
+  "186000010": {
+    "id": 186000010,
+    "url": "https://aioncodex.com/usc/item/186000010/",
+    "name": "Platinum Coin",
+    "markupLink": "[<Platinum Coin>](https://aioncodex.com/usc/item/186000010/)"
   },
   "186000030": {
     "id": 186000030,
@@ -71,6 +83,24 @@
     "name": "Major Ancient Seal",
     "markupLink": "[<Major Ancient Seal>](https://aioncodex.com/usc/item/186000059/)"
   },
+  "186000063": {
+    "id": 186000063,
+    "url": "https://aioncodex.com/usc/item/186000063/",
+    "name": "Major Ancient Icon",
+    "markupLink": "[<Major Ancient Icon>](https://aioncodex.com/usc/item/186000063/)"
+  },
+  "186000104": {
+    "id": 186000104,
+    "url": "https://aioncodex.com/usc/item/186000104/",
+    "name": "Crusader Token",
+    "markupLink": "[<Crusader Token>](https://aioncodex.com/usc/item/186000104/)"
+  },
+  "186000156": {
+    "id": 186000156,
+    "url": "https://aioncodex.com/usc/item/186000156/",
+    "name": "Black Gold Medal",
+    "markupLink": "[<Black Gold Medal>](https://aioncodex.com/usc/item/186000156/)"
+  },
   "186000182": {
     "id": 186000182,
     "url": "https://aioncodex.com/usc/item/186000182/",
@@ -89,6 +119,12 @@
     "name": "Faint Stormwing's Essence",
     "markupLink": "[<Faint Stormwing&#39;s Essence>](https://aioncodex.com/usc/item/186020253/)"
   },
+  "186020255": {
+    "id": 186020255,
+    "url": "https://aioncodex.com/usc/item/186020255/",
+    "name": "Fighting Spirit Gem",
+    "markupLink": "[<Fighting Spirit Gem>](https://aioncodex.com/usc/item/186020255/)"
+  },
   "186020267": {
     "id": 186020267,
     "url": "https://aioncodex.com/usc/item/186020267/",
@@ -100,6 +136,24 @@
     "url": "https://aioncodex.com/usc/item/188000003/",
     "name": "Asmodian Fine Siege Weapon",
     "markupLink": "[<Asmodian Fine Siege Weapon>](https://aioncodex.com/usc/item/188000003/)"
+  },
+  "188020000": {
+    "id": 188020000,
+    "url": "https://aioncodex.com/usc/item/188020000/",
+    "name": "Temporal Stone",
+    "markupLink": "[<Temporal Stone>](https://aioncodex.com/usc/item/188020000/)"
+  },
+  "188052027": {
+    "id": 188052027,
+    "url": "https://aioncodex.com/usc/item/188052027/",
+    "name": "Daeva Candy Box",
+    "markupLink": "[<Daeva Candy Box>](https://aioncodex.com/usc/item/188052027/)"
+  },
+  "188052091": {
+    "id": 188052091,
+    "url": "https://aioncodex.com/usc/item/188052091/",
+    "name": "[Event] 5 Major Ancient Crown Box",
+    "markupLink": "[<[Event] 5 Major Ancient Crown Box>](https://aioncodex.com/usc/item/188052091/)"
   },
   "188052221": {
     "id": 188052221,
@@ -130,6 +184,18 @@
     "url": "https://aioncodex.com/usc/item/188053266/",
     "name": "[Event] Valentine's Weapon Select Box",
     "markupLink": "[<[Event] Valentine's Weapon Select Box>](https://aioncodex.com/usc/item/188053266/)"
+  },
+  "188053381": {
+    "id": 188053381,
+    "url": "https://aioncodex.com/usc/item/188053381/",
+    "name": "Agent Battle Grade 1 Participation Reward Box",
+    "markupLink": "[<Agent Battle Grade 1 Participation Reward Box>](https://aioncodex.com/usc/item/188053381/)"
+  },
+  "188053403": {
+    "id": 188053403,
+    "url": "https://aioncodex.com/usc/item/188053403/",
+    "name": "Agent Superior Manastone Selection Bundle",
+    "markupLink": "[<Agent Superior Manastone Selection Bundle>](https://aioncodex.com/usc/item/188053403/)"
   },
   "188053499": {
     "id": 188053499,
@@ -178,6 +244,18 @@
     "url": "https://aioncodex.com/usc/item/188053537/",
     "name": "Mystic Academy Set",
     "markupLink": "[<Mystic Academy Set>](https://aioncodex.com/usc/item/188053537/)"
+  },
+  "188053570": {
+    "id": 188053570,
+    "url": "https://aioncodex.com/usc/item/188053570/",
+    "name": "Elite Archon Centurion's Armor Selection Box",
+    "markupLink": "[<Elite Archon Centurion's Armor Selection Box>](https://aioncodex.com/usc/item/188053570/)"
+  },
+  "188053616": {
+    "id": 188053616,
+    "url": "https://aioncodex.com/usc/item/188053616/",
+    "name": "Storming Skill Book Selection Box",
+    "markupLink": "[<Storming Skill Book Selection Box>](https://aioncodex.com/usc/item/188053616/)"
   },
   "188059900": {
     "id": 188059900,
@@ -233,6 +311,12 @@
     "name": "[Motion Card] Submerged Rest",
     "markupLink": "[<[Motion Card] Submerged Rest>](https://aioncodex.com/usc/item/188500093/)"
   },
+  "189700049": {
+    "id": 189700049,
+    "url": "https://aioncodex.com/usc/item/189700049/",
+    "name": "Unconfirmed Lesser Brohum Painting Shard",
+    "markupLink": "[<Unconfirmed Lesser Brohum Painting Shard>](https://aioncodex.com/usc/item/189700049/)"
+  },
   "189700097": {
     "id": 189700097,
     "url": "https://aioncodex.com/usc/item/189700097/",
@@ -244,5 +328,17 @@
     "url": "https://aioncodex.com/usc/item/190020114/",
     "name": "Altgard Kitter Egg (30 days)",
     "markupLink": "[<Altgard Kitter Egg (30 days)>](https://aioncodex.com/usc/item/190020114/)"
+  },
+  "190020119": {
+    "id": 190020119,
+    "url": "https://aioncodex.com/usc/item/190020119/",
+    "name": "Tin Narky Egg (90 days)",
+    "markupLink": "[<Tin Narky Egg (90 days)>](https://aioncodex.com/usc/item/190020119/)"
+  },
+  "190020156": {
+    "id": 190020156,
+    "url": "https://aioncodex.com/usc/item/190020156/",
+    "name": "[Event] Red Diabol Egg (30 Days)",
+    "markupLink": "[<[Event] Red Diabol Egg (30 Days)>](https://aioncodex.com/usc/item/190020156/)"
   }
 }
