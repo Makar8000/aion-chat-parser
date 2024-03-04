@@ -64,7 +64,11 @@ const parseUnknownItem = async itemId => {
         if (typeof match?.groups?.title !== 'string') {
           return;
         }
-        ret.name = he.decode(match.groups.title.replace(' - Aion Codex', '')).trim();
+        const name = he.decode(match.groups.title.replace(' - Aion Codex', '')).trim();
+        if (!name.length) {
+          return;
+        }
+        ret.name = name;
         ret.markupLink = `[<${ret.name}>](https://aioncodex.com/usc/item/${itemId}/)`;
         return updateItem(itemId, ret);
       });
