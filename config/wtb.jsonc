@@ -2,10 +2,11 @@
   // Makar
   {
     "enabled": true,
-    "push": false,
+    "push": true,
     "userId": "85924030661533696",
     "items": [
-      100000893 // Stormwing's Azure Scale Sword
+      100000893, // Stormwing's Azure Scale Sword
+      140000566  // Assassin's Step I (Maximum I)
     ]
   },
   // Lico
@@ -14,7 +15,7 @@
     "userId": "91683230192791552",
     "items": [
       112500907, // Stormwing's Spaulders
-      112501216 // [Supply] Sweet Stormwing's Spaulders
+      112501216  // [Supply] Sweet Stormwing's Spaulders
     ]
   },
   // Yoyo
@@ -29,7 +30,7 @@
     "userId": "175172897155973120",
     "items": [
       112100922, // Stormwing's Pauldrons
-      112101243 // [Supply] Sweet Stormwing's Pauldrons
+      112101243  // [Supply] Sweet Stormwing's Pauldrons
     ]
   },
   // Kaga
