@@ -8,5 +8,10 @@
     "enabled": true,
     "regex": "okaygold\\.com",
     "flags": "i"
+  },
+  {
+    "enabled": true,
+    "regex": "mmomk\\.com",
+    "flags": "i"
   }
 ]
